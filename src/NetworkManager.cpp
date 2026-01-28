@@ -272,7 +272,7 @@ void NetworkManager::Stop() {
     
     host = nullptr; peer = nullptr; isConnected = false; role = NONE;
     
-    // Reset all state flags
+    //Reset all state flags
     restartRequestReceived = false; restartRequestPending = false;
     pauseRequestReceived = false; pauseRequestPending = false;
     resumeRequestReceived = false; resumeRequestPending = false;

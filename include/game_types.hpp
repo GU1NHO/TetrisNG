@@ -5,7 +5,7 @@
 
 #pragma once
 
-// Represents the high-level state of the application
+// represents the high-level state of the application
 enum GameState { 
     MENU,           // Main menu screen
     PLAYING,        // Singleplayer mode

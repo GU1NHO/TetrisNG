@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <cmath>
 #include <ctime>
-#include <cstdio> // Required for sprintf
+#include <cstdio> //Required for sprintf
 
 Game::Game(bool useArrowsInput) {
     grid = Grid();

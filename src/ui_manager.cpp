@@ -4,7 +4,7 @@
  */
 
 #include "../include/ui_manager.hpp"
-#include "../include/colors.hpp" // Required for darkGrey and darkBlue constants
+#include "../include/colors.hpp" //Required for darkGrey and darkBlue constants
 
 bool UIManager::DrawConfirmButton(Font font, const char* text, Rectangle rect, float p) {
     Vector2 mousePos = GetMousePosition();

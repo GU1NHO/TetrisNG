@@ -48,7 +48,7 @@ public:
     // Disconnects peers and destroys the host.
     void Stop();
 
-    // --- Data Transmission Methods ---
+    // Data Transmission Methods ---
     void SendInput(InputState input);
     void SendSeed(unsigned int seedHost, unsigned int seedClient);
     void SendTick();

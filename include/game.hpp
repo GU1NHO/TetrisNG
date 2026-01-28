@@ -2,7 +2,7 @@
  * @file game.hpp
  * @brief Definition of the Game class.
  * Manages the core Tetris logic, including the grid, blocks, collision detection,
- * scoring, and rendering.
+ * scoring and rendering.
  */
 
 #pragma once

@@ -11,7 +11,7 @@
 Menu::Menu() {
     selectedOption = 0;
     
-    // Menu Options Definition
+    // Menu Options definition
     // Order corresponds to indices used in main.cpp switch logic:
     // 0: Normal Mode
     // 1: Dual Window Mode

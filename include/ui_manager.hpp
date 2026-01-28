@@ -15,6 +15,6 @@ public:
     // Draws a generic confirmation button and returns true if clicked.
     static bool DrawConfirmButton(Font font, const char* text, Rectangle rect, float p);
 
-    // Draws the standard in-game HUD buttons (Menu, Restart, Pause).
+    //Draws the standard in-game HUD buttons (Menu, Restart, Pause).
     static void DrawInterfaceButtons(Font font, float p, bool showRestart, GameState state, NetworkManager& net, bool& showMenuConfirm, bool& showRestartConfirm, bool& isPaused);
 };

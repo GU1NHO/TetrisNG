@@ -16,7 +16,7 @@ void Block::Draw(int offsetX, int offsetY, int dynamicCellSize, Color tint) {
     std::vector<Position> tiles = GetCellPositions();
     
     for (Position item : tiles) {
-        // Retrieve the block's original color (e.g., Red for Z-Block)
+        //Retrieve the block's original color (e.g., Red for Z-Block)
         Color finalColor = colors[id];
 
         // Apply alpha transparency if a tint is provided (e.g., for Ghost Piece)

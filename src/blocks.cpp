@@ -20,7 +20,7 @@ public:
     }    
 };
 
-// --- J Block (Blue) ---
+// J Block (Blue) ---
 class JBlock : public Block {
 public:
     JBlock() {

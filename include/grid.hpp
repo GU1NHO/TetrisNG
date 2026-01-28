@@ -29,7 +29,7 @@ public:
     // Note: Cells above the grid (negative rows) are considered valid empty space for spawning.
     bool IsCellEmpty(int row, int column);
 
-    // Scans for full rows, clears them, moves blocks down, and returns the count of cleared rows.
+    // Scan for full rows, clears them, moves blocks down, and returns the count of cleared rows.
     int ClearFullRows();
 
     // The actual 2D array representing the game board (20 rows x 10 columns).

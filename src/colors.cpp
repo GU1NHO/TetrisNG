@@ -6,7 +6,7 @@
 #include "../include/colors.hpp"
 #include <vector>
 
-// --- Color Palette Definitions ---
+// Color Palette Definitions ---
 // Uses RGBA format: {Red, Green, Blue, Alpha}
 
 const Color darkGrey = {26, 31, 40, 255};

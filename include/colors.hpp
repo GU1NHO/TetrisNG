@@ -7,7 +7,7 @@
 #include <raylib.h>
 #include <vector>
 
-// Global Color Definitions (Extern allows sharing across files)
+// Global color Definitions (Extern allows sharing across files)
 extern const Color darkGrey;
 extern const Color green;
 extern const Color red;

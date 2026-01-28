@@ -3,6 +3,7 @@
 *.o
 *.dll
 *.a
+*.zip
 
 build/
 bin/

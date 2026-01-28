@@ -11,7 +11,7 @@ double Utils::lastUpdateTime = 0;
 bool Utils::EventTriggered(double interval, bool stopTimer) {
     double currentTime = GetTime();
     
-    // Anti-Lag / Anti-Teleport Logic:
+    // Anti-Lag/Anti-Teleport Logic:
     // If the game is paused (stopTimer is true), we constantly update
     // lastUpdateTime to the current time. 
     // This ensures that when the game resumes, the time delta is effectively 0,

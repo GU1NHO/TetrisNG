@@ -12,7 +12,7 @@ Grid::Grid() {
     numRows = 20;
     Initalize();
     colors = GetCellColors();
-    cellSize = 30; // Default fallback size, overridden in Draw
+    cellSize = 30; //Default fallback size, overridden in Draw
 }
 
 void Grid::Initalize() {

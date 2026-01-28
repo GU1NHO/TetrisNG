@@ -12,7 +12,7 @@ class Menu {
 public:
     Menu();
 
-    // Renders the menu elements on the screen.
+    // Render the menu elements on the screen.
     void Draw(Font font);
 
     // Processes input for navigation (Keyboard and Mouse).

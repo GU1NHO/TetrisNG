@@ -11,7 +11,7 @@
 class InputHandler {
 public:
     /**
-     * Handles key presses with DAS (Delayed Auto Shift).
+     * Handle key presses with DAS (Delayed Auto Shift).
      * Allows a key to be pressed once for a single action, or held down to repeat the action.
      * True if the action should trigger this frame, False otherwise.
      */

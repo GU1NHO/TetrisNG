@@ -38,7 +38,7 @@ bool showDualSeedMenu = false;
 float dasInterval = 0.06f; 
 
 int main() {
-    // --- Application Startup (Clean Initialization) ---
+    // Application Startup (Clean Initialization) ---
     // Start window hidden to avoid flickering during resize/positioning
     SetConfigFlags(FLAG_WINDOW_HIDDEN); 
     InitWindow(100, 100, "Tetris NG");

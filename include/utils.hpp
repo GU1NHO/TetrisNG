@@ -12,7 +12,7 @@ public:
     /**
      * Checks if a specific time interval has passed since the last update.
      * Used mainly for game tick logic (gravity).
-     * True if the interval has passed, False otherwise.
+     * True if the interval has passed, False otherwise
      */
     static bool EventTriggered(double interval, bool stopTimer);
 

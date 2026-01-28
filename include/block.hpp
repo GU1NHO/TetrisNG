@@ -15,7 +15,7 @@ class Block {
 public:
     Block();
 
-    // Unique identifier for the block type (determines color)
+    // unique identifier for the block type (determines color)
     int id; 
 
     // Stores the block's shape for each of the 4 rotation states (0, 90, 180, 270 degrees)
